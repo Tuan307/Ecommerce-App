@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.User.SearchActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rltsearch"
+        android:background="@color/purple_700">
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Type in Product name"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            android:padding="10dp"
+            android:id="@+id/edtsearch"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:text="Search"
+            android:backgroundTint="@color/purple_700"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/btnsearch"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rltsearch"
+        android:id="@+id/recylersearch"/>
+
+</RelativeLayout>

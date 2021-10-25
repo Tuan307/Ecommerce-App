@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#F8F7F7"
+    android:layout_height="match_parent"
+    tools:context=".Activity.LoginActivity">
+
+    <TextView
+        android:id="@+id/txtseller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:text="I am a seller"
+        android:textColor="@color/purple_700"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="55dp"
+        app:srcCompat="@drawable/applogo" />
+
+    <EditText
+        android:id="@+id/edttendangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/nhaplogin"
+        android:hint="Phone or Username"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/edtmatkhaudangnhap"
+        android:layout_width="373dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="361dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/nhaplogin"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/linearremember"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_below="@+id/edtmatkhaudangnhap"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="18dp"
+
+        android:orientation="horizontal">
+
+        <com.rey.material.widget.CheckBox
+            android:id="@+id/checkboxremember"
+            style="@style/Material.Drawable.CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:gravity="center_vertical"
+            android:text="Remember me"
+            android:textColor="@color/purple_700"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:cbd_strokeColor="@color/purple_700" />
+
+        <TextView
+            android:id="@+id/txtforgetpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:text="Forget Password ?"
+            android:textColor="@color/purple_700"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btndangnhap"
+        android:layout_width="216dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/linearremember"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/login_welcom"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginBottom="42dp"
+        android:text="I'm Admin"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtnotadmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginBottom="42dp"
+        android:text="I'm not Admin"
+        android:textColor="@color/purple_700"
+        android:textSize="18dp" />
+</RelativeLayout>

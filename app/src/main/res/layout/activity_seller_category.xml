@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Admin.SellerCategoryActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Add New Product"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:id="@+id/txtaddproduct"/>
+
+    <LinearLayout
+        android:id="@+id/linearaddproduct1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtaddproduct"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgtshirt"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/tshirts" />
+
+        <ImageView
+            android:id="@+id/imgsports"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/sports" />
+
+        <ImageView
+            android:id="@+id/imgfemale_dress"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/female_dresses" />
+
+        <ImageView
+            android:id="@+id/imgsweather"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/sweather" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearaddproduct2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearaddproduct1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgglasses"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/glasses" />
+
+        <ImageView
+            android:id="@+id/imgpurse_bag"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/purses_bags" />
+
+        <ImageView
+            android:id="@+id/imghats"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/hats" />
+
+        <ImageView
+            android:id="@+id/imgshoess"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/shoess" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearaddproduct3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearaddproduct2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgheadphone"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/headphoness" />
+
+        <ImageView
+            android:id="@+id/imglaptop"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/laptops" />
+
+        <ImageView
+            android:id="@+id/imgwatches"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/watches" />
+
+        <ImageView
+            android:id="@+id/imgmobilephone"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/mobiles" />
+    </LinearLayout>
+
+
+</RelativeLayout>

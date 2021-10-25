@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="410dp"
+        app:srcCompat="@drawable/applogo" />
+
+    <EditText
+        android:id="@+id/edttendangnhapdangky"
+        android:layout_width="373dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="307dp"
+        android:background="@drawable/nhaplogin"
+        android:hint="User name"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtmatkhaudangky"
+        android:layout_width="372dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="225dp"
+        android:background="@drawable/nhaplogin"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/sodienthoaidangky"
+        android:layout_width="373dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="143dp"
+        android:background="@drawable/nhaplogin"
+        android:hint="Phone number"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btndangkytaikhoan"
+        android:layout_width="134dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="71dp"
+        android:background="@drawable/login_welcom"
+        android:text="Create Account"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Admin.AdminHomeActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Admin Panel"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+    <Button
+        android:id="@+id/btnadmincheckandapproveorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="260dp"
+        android:background="@color/purple_700"
+        android:text="Check and Approve new Products"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/btnmaitain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="180dp"
+        android:background="@color/purple_700"
+        android:text="MainTain Product"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Log Out"
+        android:background="@color/purple_700"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/btnadminlogout"/>
+
+    <Button
+        android:id="@+id/btnadmincheckorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="105dp"
+        android:background="@color/purple_700"
+        android:text="Check new Orders"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</RelativeLayout>

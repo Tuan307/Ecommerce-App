@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Admin.SellerAddActivity">
+
+    <ImageView
+        android:id="@+id/imgselectpic"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/select_product_image" />
+
+    <EditText
+        android:id="@+id/edtaddname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgselectpic"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/nhaplogin"
+        android:hint="Product Name"
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/edtadddescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtaddname"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/nhaplogin"
+        android:hint="Product Description"
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/edtadddprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtadddescription"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/nhaplogin"
+        android:hint="Product Price"
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/btnaddnewproduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtadddprice"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/login_welcom"
+        android:padding="18dp"
+        android:textColor="@color/white"
+        android:text="Add Product" />
+</RelativeLayout>

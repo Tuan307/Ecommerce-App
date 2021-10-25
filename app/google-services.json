@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "541147993298",
+    "project_id": "my-demo-project-dfedb",
+    "storage_bucket": "my-demo-project-dfedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541147993298:android:06dbb89115d4de6067890b",
+        "android_client_info": {
+          "package_name": "com.example.firstfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541147993298-rg8hrnrkfs8gc6iopcc6lbaukfod1cbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5z_Uzimfdn3S_J2BQlN7detBi2XIETg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541147993298-rg8hrnrkfs8gc6iopcc6lbaukfod1cbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
